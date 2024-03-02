@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sorting</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<main>
+  <h1 class="title">Bubble sort</h1>
+  <div>
+    <label id="bubbleLabel">Array:</label>
+    <label id="bubbleArray">1,14,0,7,2,8,11,7,7,13</label>
+    <button onclick="createArrayForBubble()"> Create new array</button>
+  </div>
+  <button onclick="bubbleSort()"> Sort</button>
+  <div>
+    <label id="arrayForBubble"></label>
+  </div>
+  <div>
+    <label id="bubleSortedArray"></label>
+  </div>
+  <div>
+    <label id="bubleOperations"></label>
+  </div>
+</main>
+
+<main>
+  <h1 class="title">Insert sort</h1>
+  <div>
+    <label id="insertLabel">Array:</label>
+    <label id="insertArray">1,14,0,7,2,8,11,7,7,13</label>
+    <button onclick="createArrayForInsert()"> Create new array</button>
+  </div>
+  <button onclick="insertSort()"> Sort</button>
+  <div>
+    <label id="arrayForInsert"></label>
+  </div>
+  <div>
+    <label id="insertSortedArray"></label>
+  </div>
+  <div>
+    <label id="insertOperations"></label>
+  </div>
+</main>
+
+<main>
+  <h1 class="title">Select sort</h1>
+  <div>
+    <label id="selectLabel">Array:</label>
+    <label id="selectArray">1,14,0,7,2,8,11,7,7,13</label>
+    <button onclick="createArrayForSelect()"> Create new array</button>
+  </div>
+  <button onclick="selectSort()"> Sort</button>
+  <div>
+    <label id="arrayForSelect"></label>
+  </div>
+  <div>
+    <label id="selectSortedArray"></label>
+  </div>
+  <div>
+    <label id="selectOperations"></label>
+  </div>
+</main>
+
+<main>
+  <h1 class="title">Merge sort</h1>
+  <div>
+    <label id="mergeLabel">Array:</label>
+    <label id="mergeArray">1,14,0,7,2,8,11,7,7,13</label>
+    <button onclick="createArrayForMerge()"> Create new array</button>
+  </div>
+  <button onclick="mergeSort()"> Sort</button>
+  <div>
+    <label id="arrayForMerge"></label>
+  </div>
+  <div>
+    <label id="mergeSortedArray"></label>
+  </div>
+  <div>
+    <label id="mergeOperations"></label>
+  </div>
+</main>
+
+<main>
+  <h1 class="title">Quick sort</h1>
+  <div>
+    <label id="quickLabel">Array:</label>
+    <label id="quickArray">1,14,0,7,2,8,11,7,7,13</label>
+    <button onclick="createArrayForQuick()"> Create new array</button>
+  </div>
+  <button onclick="quickSort()"> Sort</button>
+  <div>
+    <label id="arrayForQuick"></label>
+  </div>
+  <div>
+    <label id="quickSortedArray"></label>
+  </div>
+  <div>
+    <label id="quickOperations"></label>
+  </div>
+</main>
+
+<script src="scripts/createArray.js"></script>
+<script src="scripts/bubbleSort.js"></script>
+<script src="scripts/insertSort.js"></script>
+<script src="scripts/selectSort.js"></script>
+<script src="scripts/mergeSort.js"></script>
+<script src="scripts/quickSort.js"></script>
+</body>
+</html>
